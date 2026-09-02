@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+*.pem
+
+# Generated reports and caches
+reports/generated/
+.cache/
+
+# Local/raw data that should not be committed
+# Keep small, synthetic examples in data/sample/
+data/raw/*
+data/cleaned/*
+data/corrupted/*
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+!data/corrupted/.gitkeep
